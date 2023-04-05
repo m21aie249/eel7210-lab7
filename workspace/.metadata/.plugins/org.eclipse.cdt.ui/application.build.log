@@ -1,0 +1,25 @@
+16:06:43 **** Incremental Build of configuration Debug for project application ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/NOT_gate.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/NOT_gate.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/rohitmathurs/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/NOT_gate.d" -MT"src/NOT_gate.o" -o "src/NOT_gate.o" "../src/NOT_gate.c"
+Finished building: ../src/NOT_gate.c
+ 
+Building target: application.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/rohitmathurs/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "application.elf" ./src/NOT_gate.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: application.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size application.elf  |tee "application.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20390	   1176	  22584	  44150	   ac76	application.elf
+Finished building: application.elf.size
+ 
+
+16:06:45 Build Finished (took 1s.560ms)
+
