@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/Lab/PL_PS_NANDgate/PL_PS_NANDgate.srcs/constrs_1/new/physical_constr.xdc rfile:../../../PL_PS_NANDgate.srcs/constrs_1/new/physical_constr.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN M20 IOSTANDARD LVCMOS33} [get_ports {sw0}]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN M19 IOSTANDARD LVCMOS33} [get_ports {sw1}]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN R14 IOSTANDARD LVCMOS33} [get_ports {led}]

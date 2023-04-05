@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Mar 29 11:52:54 2023
+# Process ID: 3816
+# Current directory: C:/Users/Lab/PL_PS_NANDgate/PL_PS_NANDgate.runs/design_1_xbar_0_synth_1
+# Command line: vivado.exe -log design_1_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+# Log file: C:/Users/Lab/PL_PS_NANDgate/PL_PS_NANDgate.runs/design_1_xbar_0_synth_1/design_1_xbar_0.vds
+# Journal file: C:/Users/Lab/PL_PS_NANDgate/PL_PS_NANDgate.runs/design_1_xbar_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_xbar_0.tcl -notrace
